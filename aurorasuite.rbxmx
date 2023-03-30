@@ -5100,28 +5100,80 @@ end)]]></ProtectedString>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
 								<string name="ScriptGuid">{DCB49479-EF09-4690-82FE-F17C45781CE2}</string>
-								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
+								<ProtectedString name="Source"><![CDATA[local ChangeHistoryService = game:GetService("ChangeHistoryService")
+local Selection = game:GetService("Selection")
+local MarketplaceService = game:GetService("MarketplaceService")
+local assetInfoCache = {}
+
+local function getAssetInfo(assetId)
+	if assetInfoCache[assetId] then
+		return assetInfoCache[assetId]
+	end
+
+	local success, result = pcall(MarketplaceService.GetProductInfo, MarketplaceService, assetId, Enum.InfoType.Asset)
+
+	if success and result and result.AssetTypeId then
+		assetInfoCache[assetId] = result
+		return result
+	else
+		return nil
+	end
+end
+
+
+script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.TextBox
-	local selection = game:GetService("Selection")
-	local history = game:GetService("ChangeHistoryService")
-	
-	if box.Text == "" or box.text == nil or box.text == "Inserted" then
+	local selected = Selection:Get()
+	local objects = {}
+
+	if string.match(box.Text, "^%s*(%d+)%s*$") == nil then
 		warn("auroraSuite: Could not insert model from ID due to no ID being provided.")
 		return
 	end
-	
-	local selected = selection:Get()
-	
-	if #selected == 0 or #selected > 1 then
+
+	local assetId = tonumber(string.match(box.Text, "^%s*(%d+)%s*$"))
+	local assetInfo = getAssetInfo(assetId)
+	local assetType = assetInfo and assetInfo.AssetTypeId
+
+	if #selected == 0 then
+		table.insert(selected, workspace)
+	elseif #selected > 1 then
 		warn("auroraSuite: Could not insert model from ID due to there being nothing selected or too many items was selected.")
 		return
 	end
-	
-	history:SetWaypoint("auroraSuite: Before inserting model from ID")
-	
-	game:GetObjects('rbxassetid://' .. box.Text)[1].Parent = selected[1]
-	print("auroraSuite: Inserted asset ID " .. box.Text .. " into " .. selected[1]:GetFullName() .. ".")
-	history:SetWaypoint("auroraSuite: After inserting model from ID")
+
+	ChangeHistoryService:SetWaypoint("auroraSuite: Before inserting model from ID")
+
+	if Enum.AssetType.Image.Value == assetType then
+		local decal = Instance.new("Decal")
+
+		decal.Texture = "rbxassetid://" .. assetId
+		decal.Name = assetInfo.Name
+
+		table.insert(objects, decal)
+	elseif Enum.AssetType.Audio.Value == assetType then
+		local sound = Instance.new("Sound")
+
+		sound.SoundId = "rbxassetid://" .. assetId
+		sound.Name = assetInfo.Name
+
+		table.insert(objects, sound)
+	else
+		objects = game:GetObjects("rbxassetid://" .. assetId)
+	end
+
+	for _, v in ipairs(objects) do
+		v.Parent = selected[1]
+	end
+
+	if selected[1] == workspace then
+		Selection:Set(objects)
+	end
+
+	box.Text = ""
+
+	print("auroraSuite: Inserted asset ID " .. assetId .. " into " .. selected[1]:GetFullName() .. ".")
+	ChangeHistoryService:SetWaypoint("auroraSuite: After inserting model from ID")
 end)]]></ProtectedString>
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
