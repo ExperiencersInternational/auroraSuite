@@ -5105,6 +5105,44 @@ local Selection = game:GetService("Selection")
 local MarketplaceService = game:GetService("MarketplaceService")
 local assetInfoCache = {}
 
+local ASSET_ID_MATCHES = {
+	"^(%d+)$",
+	-- CDN asset links
+	"^rbxassetid://(%d+)",
+	"^%w*%.?roblox%.com%.?/asset/%?id=(%d+)",
+	-- Website asset links
+	"^%w*%.?roblox%.com%.?/library/(%d+)",
+	"^%w*%.?roblox%.com%.?/catalog/(%d+)",
+	"^%w*%.?roblox%.com%.?/[%w_%-]+%-item%?[&=%w%-_%%%+]*id=(%d+)",
+	"^%w*%.?roblox%.com%.?/[Mm]y/[Ii]tem%.aspx%?[&=%w%-_%%%+]*[Ii][Dd]=(%d+)",
+	"^create%.roblox%.com%.?/dashboard/creations/catalog/(%d+)",
+	"^create%.roblox%.com%.?/dashboard/creations/marketplace/(%d+)",
+	"^create%.roblox%.com%.?/marketplace/asset/(%d+)",
+	"^%w*%.?roblox%.com%.?/plugins/(%d+)",
+}
+
+local function stripBom(str: string): string
+	return string.gsub(string.gsub(str, "^\226\129\160", ""), "^\239\187\191", "")
+end
+
+local function sanitiseLink(link: string): string
+	return string.gsub(string.match(stripBom(link) :: string, "^%s*(.-)%s*$") :: string, "^https?://", "")
+end
+
+local function getIdFromLink(link: string): number?
+	link = sanitiseLink(link)
+
+	for _, v in ipairs(ASSET_ID_MATCHES) do
+		local assetId = tonumber(string.match(link, v) :: string)
+
+		if assetId then
+			return assetId
+		end
+	end
+
+	return nil
+end
+
 local function getAssetInfo(assetId)
 	if assetInfoCache[assetId] then
 		return assetInfoCache[assetId]
@@ -5125,13 +5163,13 @@ script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.TextBox
 	local selected = Selection:Get()
 	local objects = {}
+	local assetId = getIdFromLink(box.Text)
 
-	if string.match(box.Text, "^%s*(%d+)%s*$") == nil then
+	if not assetId then
 		warn("auroraSuite: Could not insert model from ID due to no ID being provided.")
 		return
 	end
 
-	local assetId = tonumber(string.match(box.Text, "^%s*(%d+)%s*$"))
 	local assetInfo = getAssetInfo(assetId)
 	local assetType = assetInfo and assetInfo.AssetTypeId
 
