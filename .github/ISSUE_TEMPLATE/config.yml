@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ✨ File a feature request
+    url: https://github.com/ExperiencersInternational/auroraSuite/discussions/new?category=feature-requests
+    about: Looking for new features? File a feature request.
+  - name: ⚠️ Get support with auroraSuite
+    url: https://github.com/ExperiencersInternational/auroraSuite/discussions/new?category=support
+    about: Get support from the community fast.
