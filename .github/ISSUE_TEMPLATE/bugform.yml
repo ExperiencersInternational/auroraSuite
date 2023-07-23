@@ -1,0 +1,44 @@
+name: 🪲 File a bug report
+description: Report a bug with auroraSuite
+title: '[🪲 Bug]: '
+labels: ['bug']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete this template so we can help you as soon as possible.
+
+  - type: input
+    attributes:
+      label: auroraSuite Version
+      description: Please specify the version of auroraSuite that you are using, you can usually find this at the bottom of the auroraSuite menu.
+      placeholder: 'v1.5.0'
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: auroraSuite Build
+      description: Please specify the build of auroraSuite that you are using, can be found in same place as version (usually not needed)
+      placeholder: 'https://example.com/auroraTV1/icon.png'
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Where did you install auroraSuite from?
+      options:
+        - Plugin Marketplace
+        - GitHub
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Describe your issue
+      description: We need some information about the problems that you are experiencing.
+      placeholder: 'Please type here'
+    validations:
+      required: true
