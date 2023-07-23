@@ -21,7 +21,7 @@ body:
     attributes:
       label: auroraSuite Build
       description: Please specify the build of auroraSuite that you are using, can be found in same place as version (usually not needed)
-      placeholder: 'https://example.com/auroraTV1/icon.png'
+      placeholder: '75'
     validations:
       required: false
 
