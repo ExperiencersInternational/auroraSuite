@@ -18,7 +18,7 @@
 				<string name="Name">Build</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
-				<int64 name="Value">110</int64>
+				<int64 name="Value">112</int64>
 			</Properties>
 		</Item>
 		<Item class="Script" referent="RBX9B1A9AADA84741679E2F7610340DBE28">
@@ -125,7 +125,7 @@ end]]></ProtectedString>
 				<string name="Name">Version</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
-				<string name="Value">v1.6.0</string>
+				<string name="Value">v1.6.1</string>
 			</Properties>
 		</Item>
 		<Item class="StringValue" referent="RBX60828BF06B3449248B26F72B4FE7A2B1">
@@ -298,6 +298,8 @@ end]]></ProtectedString>
 						<bool name="DefinesCapabilities">false</bool>
 						<token name="FillDirection">1</token>
 						<token name="HorizontalAlignment">0</token>
+						<token name="HorizontalFlex">0</token>
+						<token name="ItemLineAlignment">0</token>
 						<string name="Name">UIListLayout</string>
 						<UDim name="Padding">
 							<S>0</S>
@@ -307,6 +309,8 @@ end]]></ProtectedString>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<token name="VerticalAlignment">1</token>
+						<token name="VerticalFlex">0</token>
+						<bool name="Wraps">false</bool>
 					</Properties>
 				</Item>
 				<Item class="Frame" referent="RBXAB0F0B516D4E495D92AEEDA5191BB7FA">
@@ -524,7 +528,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{30C660C7-6D3F-4651-8171-83D6AA29A069}</string>
+									<string name="ScriptGuid">{F04B4925-D61D-45D7-B4BF-07EAEFC633B3}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -967,7 +971,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4FC43E31-2DAB-49E4-A3A6-DA32AAE7C39C}</string>
+									<string name="ScriptGuid">{514C3D2A-9E17-4951-A341-0FB6598ABA0D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -1294,7 +1298,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Generator</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{0F585403-1C8D-43DD-B978-B9C38645583D}</string>
+								<string name="ScriptGuid">{5D82515C-B42B-4757-AEF2-FDB9BDC13ADD}</string>
 								<ProtectedString name="Source"><![CDATA[-- Thank you to @Katrist on the DevForum for the help, really appreciated
 
 --//Services
@@ -1618,7 +1622,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{764F0BF4-007A-4EBF-AC09-B9D282879AD9}</string>
+									<string name="ScriptGuid">{E33DF412-53DC-42DA-B655-CC0E5453E5D7}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -2035,7 +2039,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B94E35CD-0B84-4BA7-9F35-CCF78070CCD6}</string>
+									<string name="ScriptGuid">{B5304103-3615-4139-9B13-CCB62A8740CA}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -2500,7 +2504,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{1FB2C086-FB36-41BB-8260-22F588611AC9}</string>
+								<string name="ScriptGuid">{47540559-090A-4309-8F29-667F567B8A25}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.TextBox
 	local price = script.Parent.Parent.PriceBox
@@ -2980,7 +2984,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{C7975754-85FC-4C94-AA33-3D5162561400}</string>
+								<string name="ScriptGuid">{D28689AA-665E-4AA2-8B37-C70CCA5BC3D2}</string>
 								<ProtectedString name="Source"><![CDATA[local core = script.Parent.Parent.Parent.Parent.Parent
 
 script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Build.Value .. ")"]]></ProtectedString>
@@ -3179,7 +3183,7 @@ script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Bu
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{E3171CC3-37E2-4916-86B7-D4EA192856C1}</string>
+								<string name="ScriptGuid">{69721BE2-62BD-4A60-AD6C-1791FF917404}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.Text = "Time spent (m): " .. plugin:GetSetting("PluginUptime")
 
 while true do
@@ -3407,7 +3411,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{0790A102-7BAC-485A-913B-087148306654}</string>
+									<string name="ScriptGuid">{4892DD9B-204B-4905-8F2D-E8B1E72BA9E0}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -3824,7 +3828,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{9DCC8760-9733-4E77-832A-0F3EB94379CD}</string>
+									<string name="ScriptGuid">{10CF21B9-2B24-42E8-990D-742DE18CE4BA}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -4289,7 +4293,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{FD1FBCF7-396B-4C00-8192-5CAD4AA132DA}</string>
+								<string name="ScriptGuid">{251E8FBF-E066-4022-BD3F-05BD7D5FF828}</string>
 								<ProtectedString name="Source"><![CDATA[local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local Selection = game:GetService("Selection")
 local MarketplaceService = game:GetService("MarketplaceService")
@@ -4519,7 +4523,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{E7D947E1-4AF2-4773-A4D8-3908FF996185}</string>
+								<string name="ScriptGuid">{4B776B87-545D-4361-92D9-E44AB4F62335}</string>
 								<ProtectedString name="Source"><![CDATA[local check = plugin:GetSetting("InsertModelLastID")
 
 if check == nil then
@@ -4865,7 +4869,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{41043EF7-A71C-475A-B9AA-F1342CF05CA3}</string>
+									<string name="ScriptGuid">{02C9184A-33B0-4519-83AC-D51CE1803D7E}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -5192,7 +5196,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Generator</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{250CF580-E26C-45C4-8095-1E46C3F3018F}</string>
+								<string name="ScriptGuid">{A55F96B4-2ECE-4554-A2D6-FD00D61564B2}</string>
 								<ProtectedString name="Source"><![CDATA[-- Thank you to @Katrist on the DevForum for the help, really appreciated
 
 --//Services
@@ -5245,24 +5249,47 @@ local icons = {
 	["robux white icon"] = "rbxasset://textures/ui/common/robux@3x.png",
 	["robux gold icon"] = "rbxasset://textures/ui/common/robux_color@3x.png",
 	["macOS command icon"] = "rbxasset://textures/ui/Controls/command@3x.png",
-	["d-pad up icon"] = "rbxasset://textures/ui/Controls/dpadUp@3x.png",
-	["d-pad left icon"] = "rbxasset://textures/ui/Controls/dpadLeft@3x.png",
-	["d-pad right icon"] = "rbxasset://textures/ui/Controls/dpadRight@3x.png",
-	["d-pad down icon"] = "rbxasset://textures/ui/Controls/dpadDown@3x.png",
-	["xbox a button"] = "rbxasset://textures/ui/Controls/xboxA@3x.png",
-	["xbox b button"] = "rbxasset://textures/ui/Controls/xboxB@3x.png",
-	["xbox x button"] = "rbxasset://textures/ui/Controls/xboxX@3x.png",
-	["xbox y button"] = "rbxasset://textures/ui/Controls/xboxY@3x.png",
-	["xbox view button"] = "rbxasset://textures/ui/Controls/xboxView@3x.png",
-	["xbox menu button"] = "rbxasset://textures/ui/Controls/xboxMenu@3x.png",
-	["xbox lb button"] = "rbxasset://textures/ui/Controls/xboxLB@3x.png",
-	["xbox rb button"] = "rbxasset://textures/ui/Controls/xboxRB@3x.png",
-	["xbox lt button"] = "rbxasset://textures/ui/Controls/xboxLT@3x.png",
-	["xbox rt button"] = "rbxasset://textures/ui/Controls/xboxRT@3x.png",
-	["xbox ls button"] = "rbxasset://textures/ui/Controls/xboxLS@3x.png",
-	["xbox rs button"] = "rbxasset://textures/ui/Controls/xboxRS@3x.png",
-	["xbox ls directional button"] = "rbxasset://textures/ui/Controls/xboxLSDirectional@3x.png",
-	["xbox rs directional button"] = "rbxasset://textures/ui/Controls/xboxRSDirectional@3x.png",
+	["xbox d-pad up icon"] = "rbxasset://textures/ui/Controls/XboxController/DPadUp@3x.png",
+	["xbox d-pad left icon"] = "rbxasset://textures/ui/Controls/XboxController/DPadLeft@3x.png",
+	["xbox d-pad right icon"] = "rbxasset://textures/ui/Controls/XboxController/DPadRight@3x.png",
+	["xbox d-pad down icon"] = "rbxasset://textures/ui/Controls/XboxController/DPadDown@3x.png",
+	["xbox a button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonA@3x.png",
+	["xbox b button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonB@3x.png",
+	["xbox x button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonX@3x.png",
+	["xbox y button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonY@3x.png",
+	["xbox view button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonSelect@3x.png",
+	["xbox menu button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonStart@3x.png",
+	["xbox lb button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonLB@3x.png",
+	["xbox rb button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonRB@3x.png",
+	["xbox lt button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonLT@3x.png",
+	["xbox rt button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonRT@3x.png",
+	["xbox ls button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonLS@3x.png",
+	["xbox rs button"] = "rbxasset://textures/ui/Controls/XboxController/ButtonRS@3x.png",
+	["xbox playstation l stick"] = "rbxasset://textures/ui/Controls/XboxController/Thumbstick1@3x.png",
+	["xbox playstation r stick"] = "rbxasset://textures/ui/Controls/XboxController/Thumbstick2@3x.png",
+	["playstation d-pad up icon"] = "rbxasset://textures/ui/Controls/PlayStationController/DPadUp@3x.png",
+	["playstation d-pad left icon"] = "rbxasset://textures/ui/Controls/PlayStationController/DPadLeft@3x.png",
+	["playstation d-pad right icon"] = "rbxasset://textures/ui/Controls/PlayStationController/DPadRight@3x.png",
+	["playstation d-pad down icon"] = "rbxasset://textures/ui/Controls/PlayStationController/DPadDown@3x.png",
+	["playstation a button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonCross@3x.png",
+	["playstation b button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonCircle@3x.png",
+	["playstation x button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonSquare@3x.png",
+	["playstation y button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonTriangle@3x.png",
+	["playstation lb button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonL1@3x.png",
+	["playstation rb button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonR1@3x.png",
+	["playstation lt button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonL2@3x.png",
+	["playstation rt button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonR2@3x.png",
+	["playstation ls button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonL3@3x.png",
+	["playstation rs button"] = "rbxasset://textures/ui/Controls/PlayStationController/ButtonR3@3x.png",
+	["playstation 4 options button"] = "rbxasset://textures/ui/Controls/PlayStationController/PS4/ButtonOptions@3x.png",
+	["playstation 4 share button"] = "rbxasset://textures/ui/Controls/PlayStationController/PS4/ButtonShare@3x.png",
+	["playstation 4 touchpad button"] = "rbxasset://textures/ui/Controls/PlayStationController/PS4/ButtonTouchpad@3x.png",
+	["playstation 5 options button"] = "rbxasset://textures/ui/Controls/PlayStationController/PS5/ButtonOptions@3x.png",
+	["playstation 5 share button"] = "rbxasset://textures/ui/Controls/PlayStationController/PS5/ButtonShare@3x.png",
+	["playstation 5 touchpad button"] = "rbxasset://textures/ui/Controls/PlayStationController/PS5/ButtonTouchpad@3x.png",
+	["emotes icon"] = "rbxasset://textures/ui/Emotes/EmotesIcon@3x.png",
+	["favourite icon"] = "rbxasset://textures/ui/InspectMenu/ico_favorite@3x.png",
+	["favourite off icon"] = "rbxasset://textures/ui/InspectMenu/ico_favorite_off@3x.png",
 	["verified icon"] = "rbxasset://textures/ui/VerifiedBadgeNameIcon.png",
 	["report flag icon"] = "rbxasset://textures/ui/Settings/Players/ReportFlagIcon@2x.png"
 }
@@ -5542,7 +5569,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{9F07F2E1-2604-46A4-AA31-78AD67D74664}</string>
+									<string name="ScriptGuid">{D8EDBBC0-FB9D-490D-8229-6D628AEE46A1}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -5959,7 +5986,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{0A66E57B-CD42-4F03-9ED6-75F078FA9576}</string>
+									<string name="ScriptGuid">{435A44FA-AAD6-41D2-8245-1780431A07B3}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -6376,7 +6403,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{94B4DCA4-167F-4877-8846-51F8B092B158}</string>
+									<string name="ScriptGuid">{702AAF19-BED9-4027-8981-D0BB962332C0}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -6841,7 +6868,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{F007A329-E78D-4B8A-A5F0-5593D771239B}</string>
+								<string name="ScriptGuid">{47536D47-9288-4CCC-BD3A-E2BD07AC966F}</string>
 								<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7271,7 +7298,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{CE6A6FC7-2ED3-46B7-85B8-6D6595126C31}</string>
+									<string name="ScriptGuid">{1BFB9D6B-B5DA-4124-9C1E-80855239F4EF}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7507,7 +7534,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{F000E6BE-0722-4D45-9599-E7CF7706C869}</string>
+									<string name="ScriptGuid">{AFC5FDAD-A3CE-4AFA-A58F-D883B4712D30}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7743,7 +7770,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{0A2C703C-7327-4717-B95D-F55E00145976}</string>
+									<string name="ScriptGuid">{8A4D7B17-39F6-4C5A-9B04-FF67B93C3415}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7979,7 +8006,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{C6160FE3-59C2-4185-A02C-48D42FB0ADCC}</string>
+									<string name="ScriptGuid">{A5AEF6EC-A9C0-41FF-A565-40ADE96A2B3A}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8215,7 +8242,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{887239BB-C4BA-470B-B3FE-660CAD50F01F}</string>
+									<string name="ScriptGuid">{2C289F7C-3DA1-4275-8E6A-D2060987C86B}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8451,7 +8478,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{BA4283C7-885D-405A-9068-233CBDD19DAD}</string>
+									<string name="ScriptGuid">{1782B22D-84BF-4763-A657-CE5DA309064D}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8687,7 +8714,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{5033398B-A7B0-4A82-BFEE-2D83475A69F6}</string>
+									<string name="ScriptGuid">{5F7E6953-F3A6-426E-A17C-D1CA9CEE2C62}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -9029,7 +9056,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{95CF6A31-4584-434B-98ED-D93EC37DDF00}</string>
+									<string name="ScriptGuid">{D5E92FA4-73A1-428F-80B6-1FB3D54827C8}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -9810,7 +9837,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B654B486-633D-483E-A480-20D995C6C18B}</string>
+									<string name="ScriptGuid">{8A39307A-D452-4661-AE85-33B0D2B7DC51}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -10227,7 +10254,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{03A14689-C56F-4A26-AE7E-6E733A492951}</string>
+									<string name="ScriptGuid">{4ABDD37D-2BAD-49B8-A75C-CB448413E78D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -10644,7 +10671,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{145EA992-44DF-4550-A164-B92DCDBFCA42}</string>
+									<string name="ScriptGuid">{618F7C23-65AE-4D07-A40D-9577D47D4EC3}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -11109,7 +11136,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{A08D80D5-1DAF-4BC4-B9E8-45C8D4F2A048}</string>
+								<string name="ScriptGuid">{DCF4384E-111B-469D-9DF0-81E199C5BB4C}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local text = script.Parent.Parent.TextBox.Text
 	local feesCheck = script.Parent.Parent.RobloxFeesToggle
@@ -11435,7 +11462,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{A6A74DEE-B817-4739-AF88-05D78E9B4440}</string>
+								<string name="ScriptGuid">{73D61870-62A9-42E3-8131-BD884E644159}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	if script.Parent.Text == "" then
 		script.Parent.Text = "X"
@@ -11667,7 +11694,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1BA35846-34D0-41EC-B4C5-93FEEA86E4E6}</string>
+									<string name="ScriptGuid">{F88B049A-D935-4F7E-9DD8-AE071E1751E3}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -12084,7 +12111,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{DA141054-52C4-4B7B-8E36-039E4AF707D2}</string>
+									<string name="ScriptGuid">{F57CE272-D3B3-4A48-ABED-28DB0470C1EC}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -12388,7 +12415,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{1B48B32B-4A32-478F-9E6B-8979D6DDB8E3}</string>
+								<string name="ScriptGuid">{849B5707-1F6C-483F-AD05-8A6A08B69C1E}</string>
 								<ProtectedString name="Source"><![CDATA[-- ported from blisstools
 
 script.Parent.Activated:Connect(function()
@@ -12871,7 +12898,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{42002B9F-DAD1-46AC-A9CE-173800EAC525}</string>
+									<string name="ScriptGuid">{A40C7267-7219-4830-BE3B-D2CDD910D583}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -13288,7 +13315,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{F46B1177-81F0-45CD-A852-49B738846ED3}</string>
+									<string name="ScriptGuid">{117C2A00-7BB9-4300-A130-19A1A0FC41EC}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -13753,7 +13780,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{3474246D-38A3-45B6-B8AA-14905B78D366}</string>
+								<string name="ScriptGuid">{14966140-F61A-4A6C-974A-A09695B262D9}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.TextBox
 	local selection = game:GetService("Selection")
@@ -14012,7 +14039,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B8AB1ADC-00A6-41B1-B306-818B2582F1C1}</string>
+									<string name="ScriptGuid">{25ACAE58-8295-4B23-AFD6-5EF6AB8ADF7D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -14429,7 +14456,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{7C1A73D7-C2E8-4599-94BD-4AC83D9E8FDE}</string>
+									<string name="ScriptGuid">{961903FD-A480-4C6B-BCD7-55971E735570}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -14838,7 +14865,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{32A8B0B5-3DC1-4BCE-BA25-CD9EC4334F0C}</string>
+								<string name="ScriptGuid">{5474CBD6-AE5F-4BBC-B5F9-AC326C7DF809}</string>
 								<ProtectedString name="Source"><![CDATA[if plugin:GetSetting("DebugMode") == nil then
 	plugin:SetSetting("DebugMode", false)
 else if plugin:GetSetting("DebugMode") == false then
@@ -15074,7 +15101,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{7A5541D8-6820-461A-8990-170F75F8ACE5}</string>
+								<string name="ScriptGuid">{1BEEDAEA-CAF9-4716-B461-76463E37BDC3}</string>
 								<ProtectedString name="Source"><![CDATA[local RunService = game:GetService("RunService")
 task.wait(2)
 local label = game.CoreGui.auroraSuite.Frame.TextLabel
@@ -15233,7 +15260,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{325D6CEA-176C-4EA0-A972-4E1A02873708}</string>
+								<string name="ScriptGuid">{3BF0C4C9-954C-4EDA-B241-AD3AA9F71037}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local ui = script.Parent.Parent.Parent.Parent
 	local ss = game:GetService("StudioService")
@@ -15347,7 +15374,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{208DAF57-E0A9-4F2B-A9D1-EF34E4E0456E}</string>
+								<string name="ScriptGuid">{280084C1-03F9-4160-BA6F-EAFAB8D94197}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local ui = script.Parent.Parent.Parent.Parent
 	local ServerStorage = game.ServerStorage
@@ -15650,7 +15677,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{8F53A710-DF46-4DF7-BB7A-939AF9773E58}</string>
+									<string name="ScriptGuid">{2FABE114-D0BB-44B3-9840-7563CADE18F7}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -16067,7 +16094,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{D153ABB2-CAC7-46C0-A631-CDBE33BAF2D8}</string>
+									<string name="ScriptGuid">{F47E8343-797C-4218-8002-0A6FA2CC7817}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -16489,7 +16516,7 @@ BgAAADB4RTAwMg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{04722006-5C70-469E-849A-C5C5A4F3108C}</string>
+									<string name="ScriptGuid">{99C661A9-3B9A-4AAD-BBDB-F9D3FD0F458C}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 	
@@ -16606,7 +16633,7 @@ ZQIGAAAAMHhFMDAx]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{30B21AD9-5A5C-438C-8A98-214CD0A64BAF}</string>
+									<string name="ScriptGuid">{B8E5533F-0185-40E5-BA87-148E29853CDC}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -16723,7 +16750,7 @@ eEUwMDA=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{93267E86-5198-4953-8BF8-D6E56B37A13E}</string>
+									<string name="ScriptGuid">{B27E3BD4-398A-4A9C-9587-6BDFD1AE3E91}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -16840,7 +16867,7 @@ AAAweDAwQTk=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{ED1BFDCE-B329-43AC-BEC8-BF847407B35F}</string>
+									<string name="ScriptGuid">{A0EA6664-636B-427A-8DB0-C6B0C4A62AA7}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -16957,7 +16984,7 @@ AAAAMHgwMEFF]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{83F390B3-70C5-44C9-9DF7-0C65ABDAD3C9}</string>
+									<string name="ScriptGuid">{CEAAFFFC-4D52-48F4-9E92-4FEBBA31FE4D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17100,7 +17127,7 @@ MHgwMEIw]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B3BBCBE3-A72F-4DCE-BE32-6A8492AEE595}</string>
+									<string name="ScriptGuid">{B48C6D76-07BA-414F-82E0-45A22F854733}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17217,7 +17244,7 @@ BgAAADB4MDBBQg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{60AF9720-3FCB-4FCA-9D07-C50D99B47E94}</string>
+									<string name="ScriptGuid">{3856EFA6-9EEC-42D9-8B35-D08B0893D587}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17334,7 +17361,7 @@ AgYAAAAweDAwQkI=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{55E50520-2434-439D-99DE-0C4ACD0C831A}</string>
+									<string name="ScriptGuid">{3C5653C8-925F-4BFD-B320-59B199E545E5}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17451,7 +17478,7 @@ MjEyMA==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{E4CAADB2-2573-439E-9BBC-30F9929978FF}</string>
+									<string name="ScriptGuid">{E81C7204-C2E2-40FD-8686-ED809F3A80CC}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17568,7 +17595,7 @@ MjI=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{BDE4A730-B394-4052-B9C9-E1BD16FE0497}</string>
+									<string name="ScriptGuid">{648C31B7-C479-48CF-8D4A-1A9E61F1B8CA}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17685,7 +17712,7 @@ MjAyMg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{AC3F2195-78F1-46CE-B17C-3E810F48D9DB}</string>
+									<string name="ScriptGuid">{1FA19547-C7A5-41F3-A9C4-24E7ACBDE5B9}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17802,7 +17829,7 @@ OTA=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{BAEC1C9B-D49C-41D7-B076-0007ABF8CBA1}</string>
+									<string name="ScriptGuid">{DDA664A3-7E1C-4B9E-8520-681052CBB216}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17919,7 +17946,7 @@ MTky]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4BCB27C5-C993-4ECC-B3B1-5418296D35A6}</string>
+									<string name="ScriptGuid">{4A3C114A-86EC-4D07-8BF9-58C8C6A178CB}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18036,7 +18063,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B90F628E-49EB-465C-94C9-1B2452813F1C}</string>
+									<string name="ScriptGuid">{B08E2EA8-A71D-4A95-81EC-BB1FA432E97A}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18153,7 +18180,7 @@ OTM=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1B6E99C0-133A-41ED-BA9C-93F06CD4A67A}</string>
+									<string name="ScriptGuid">{1F46DD38-B489-4170-803A-9DC2580489AB}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18270,7 +18297,7 @@ AgYAAAAweDIxOTQ=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{229FB0C6-1F94-4804-B6CD-7B8122DA4675}</string>
+									<string name="ScriptGuid">{9905D39A-AF70-4F27-9160-3C1697AE90DC}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18387,7 +18414,7 @@ AAB1bmtub3du]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{2D15E3B4-E8BA-49FB-B87A-1DFBA9F40A3C}</string>
+									<string name="ScriptGuid">{401DFCCB-7662-4A4C-9FA1-3DCE88DBF7A0}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18504,7 +18531,7 @@ bg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{E7176DE7-67D5-4CF4-A722-9BE1B8AB29C2}</string>
+									<string name="ScriptGuid">{1D0C9B2D-8F21-4BC2-8F00-A3ED12CA730D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18620,7 +18647,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{BE1E07E1-68BC-4BD5-B9B1-26356FB99FE7}</string>
+									<string name="ScriptGuid">{3CFA577A-B039-48D4-9205-FE27C6CF6592}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18737,7 +18764,7 @@ bg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{826F56AC-E909-461F-B2AC-309B4F48425C}</string>
+									<string name="ScriptGuid">{AA87175F-3B02-4556-B0A7-B30BAE9EB8C5}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18853,7 +18880,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{700739FF-0C2B-4700-BF4B-BA88691BA606}</string>
+									<string name="ScriptGuid">{555C8A42-266B-4241-84CE-4F476E2A3BB0}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -19244,7 +19271,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{8B2CD329-AD0A-4A74-BDDA-73518BD968DB}</string>
+									<string name="ScriptGuid">{8D7A1B08-EC1F-483A-950C-C19FA617FE20}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -19661,7 +19688,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4D95727E-A858-4DB9-917C-2F3F0499F784}</string>
+									<string name="ScriptGuid">{DA1A22DD-169D-4851-9B47-85F0CE1D14B4}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -19965,7 +19992,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{49A5F54D-F149-40DD-BC3B-0A6FB6765C8F}</string>
+								<string name="ScriptGuid">{C7BD36CC-1CD4-40A8-A68B-DF95D9A8A043}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local selection = game:GetService("Selection")
 	local history = game:GetService("ChangeHistoryService")
@@ -20325,7 +20352,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{9C4E7F62-182A-4607-8C8D-149B4879E0F6}</string>
+									<string name="ScriptGuid">{B2D778B2-52B6-4A14-AFB8-833573D4CE28}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -20742,7 +20769,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{C5F058D5-7555-4F7C-B8C0-0C60099050B9}</string>
+									<string name="ScriptGuid">{570C931D-B6ED-4E29-B736-644F83E07EE1}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -21046,7 +21073,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{EBB609AE-5DC5-4682-BCDE-14CD34C0D044}</string>
+								<string name="ScriptGuid">{5ED7D8CC-0B5E-4F7B-B9D2-B190C370440B}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local selection = game:GetService("Selection")
 	local history = game:GetService("ChangeHistoryService")
@@ -21386,7 +21413,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{FED4F2DA-EAEC-491E-84FB-0F67A8E36FD6}</string>
+									<string name="ScriptGuid">{66490E89-5C7B-406A-ABC1-87B796DEAB28}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -21803,7 +21830,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{3E4F9F79-684D-4189-95CC-3E74F9914DEA}</string>
+									<string name="ScriptGuid">{E5F3381E-4780-4BE9-ABAF-A841D4A05833}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -22268,7 +22295,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{E580DE47-910C-469A-B5AE-61829C05BB8A}</string>
+								<string name="ScriptGuid">{F3130AEA-5E2D-4E2F-BE63-6DB17FEB13F8}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.WalkspeedBox
 	local ws = box.Text
@@ -22315,7 +22342,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">ShiftToSprint</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{9948EDC6-B099-4C17-9748-708A8B978616}</string>
+								<string name="ScriptGuid">{01D040E0-5F40-4FB8-9B6A-C2218CA29FF1}</string>
 								<ProtectedString name="Source"><![CDATA[-- Thanks to luisgamercooI231fan for submitting these changes
 local TabletJumpbuttonYoffset = 2.55 -- the mobile button offset on the Y axis(up) for tablets
 local PhoneJumpButtonoffset = 75 --the mobile button offset on the Y axis(up) for phones
@@ -22607,7 +22634,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{41648242-9415-4A59-B2C6-DDEE8F11D5F1}</string>
+									<string name="ScriptGuid">{46F50156-FE26-4791-A492-83399FF14BBF}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -23024,7 +23051,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{BA125841-70D3-46B3-B7F6-1B3CF4521F30}</string>
+									<string name="ScriptGuid">{69B13992-48FC-4C91-8ADA-EBF692EF1BA6}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -23489,7 +23516,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{1A5BF381-6066-4B8B-B5C7-1E7DE06A1DF6}</string>
+								<string name="ScriptGuid">{1AC0F7C7-74E6-40F4-B0A0-A321433254FF}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local st = script.Parent.Parent.StartBox
 	local samt = script.Parent.Parent.IntervalBox
@@ -23852,7 +23879,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{37784AB6-9493-4F53-9CC1-503F2A7AC215}</string>
+								<string name="ScriptGuid">{65EC2597-03E9-4EC8-83EE-B01407E0854D}</string>
 								<ProtectedString name="Source"><![CDATA[local core = script.Parent.Parent
 
 script.Parent.MouseButton1Click:Connect(function()
@@ -24200,7 +24227,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{EB6E70A7-66C8-4F97-8745-49098D87B385}</string>
+									<string name="ScriptGuid">{8C014D88-B59A-47A2-8D3D-87E86B798418}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -24617,7 +24644,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{A7848A66-B934-487C-BC17-EBA2B8199A56}</string>
+									<string name="ScriptGuid">{4050E30C-E953-4338-A5E6-C7849E23221F}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -24921,7 +24948,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{D604EEEA-3BCE-4B32-8FF6-243A5057DA46}</string>
+								<string name="ScriptGuid">{BBE46F65-93E3-4EDA-9CAE-CE91A05A4F44}</string>
 								<ProtectedString name="Source"><![CDATA[local setting = plugin:GetSetting("ViewportDisplay")
 local RunService = game:GetService("RunService")
 
