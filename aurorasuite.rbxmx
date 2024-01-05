@@ -18,7 +18,7 @@
 				<string name="Name">Build</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
-				<int64 name="Value">112</int64>
+				<int64 name="Value">119</int64>
 			</Properties>
 		</Item>
 		<Item class="Script" referent="RBX9B1A9AADA84741679E2F7610340DBE28">
@@ -38,7 +38,7 @@ The natural progression from blisstools. Created by @GamersInternational, and ma
 
 If you paid Robux for this from the Plugin Marketplace from a creator other than @GamersInternational or Rii-built Studios, you have been scammed. Please report it to me as soon as possible so I can get this DMCA'd.
 
-Copyright © 2021-2023 GamersInternational 
+Copyright © 2021-2024 GamersInternational 
 
 Thank you to:
 @csqrl
@@ -125,7 +125,7 @@ end]]></ProtectedString>
 				<string name="Name">Version</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
-				<string name="Value">v1.6.1</string>
+				<string name="Value">v1.6.2a</string>
 			</Properties>
 		</Item>
 		<Item class="StringValue" referent="RBX60828BF06B3449248B26F72B4FE7A2B1">
@@ -255,7 +255,7 @@ end]]></ProtectedString>
 						<XS>0</XS>
 						<XO>1</XO>
 						<YS>0</YS>
-						<YO>1</YO>
+						<YO>32</YO>
 					</UDim2>
 					<Ref name="RootLocalizationTable">null</Ref>
 					<float name="Rotation">0</float>
@@ -280,7 +280,7 @@ end]]></ProtectedString>
 						<XS>1</XS>
 						<XO>-2</XO>
 						<YS>1</YS>
-						<YO>-2</YO>
+						<YO>-33</YO>
 					</UDim2>
 					<token name="SizeConstraint">0</token>
 					<int64 name="SourceAssetId">-1</int64>
@@ -293,7 +293,7 @@ end]]></ProtectedString>
 				</Properties>
 				<Item class="UIListLayout" referent="RBXD124C063B7BF449FB4A5E839C6C3072A">
 					<Properties>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwA=</BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
 						<token name="FillDirection">1</token>
@@ -320,7 +320,7 @@ end]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -461,6 +461,8 @@ end]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -528,7 +530,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{F04B4925-D61D-45D7-B4BF-07EAEFC633B3}</string>
+									<string name="ScriptGuid">{D221DFD0-117E-41FF-8DDA-89BA28CA9EF9}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -672,6 +674,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -732,7 +736,7 @@ end)]]></ProtectedString>
 				</Item>
 				<Item class="UIPadding" referent="RBX4652746173544B3C8172C4A644487276">
 					<Properties>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwA=</BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
 						<string name="Name">UIPadding</string>
@@ -763,7 +767,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -904,6 +908,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -971,7 +977,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{514C3D2A-9E17-4951-A341-0FB6598ABA0D}</string>
+									<string name="ScriptGuid">{BD17FF38-2172-4B39-82EF-76191DB6D99A}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -1115,6 +1121,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -1298,7 +1306,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Generator</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{5D82515C-B42B-4757-AEF2-FDB9BDC13ADD}</string>
+								<string name="ScriptGuid">{0FC6BEEC-F3FB-454A-9BDE-4C05977D5056}</string>
 								<ProtectedString name="Source"><![CDATA[-- Thank you to @Katrist on the DevForum for the help, really appreciated
 
 --//Services
@@ -1345,7 +1353,10 @@ local icons = {
 	["desktop device"] = "http://www.roblox.com/asset/?id=14486426616",
 	["game console device"] = "http://www.roblox.com/asset/?id=14486422257",
 	["notepad"] = "http://www.roblox.com/asset/?id=14486496095",
-	["keyboard"] = "http://www.roblox.com/asset/?id=13683485207"
+	["keyboard"] = "http://www.roblox.com/asset/?id=13683485207",
+	["circle filled"] = "http://www.roblox.com/asset/?id=15883988693",
+	["circle outlined"] = "http://www.roblox.com/asset/?id=15883999706",
+	["cylinder"] = "http://www.roblox.com/asset/?id=15884004972"
 }
 
 --//Functions
@@ -1414,7 +1425,7 @@ end]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -1555,6 +1566,8 @@ end]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -1622,7 +1635,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{E33DF412-53DC-42DA-B655-CC0E5453E5D7}</string>
+									<string name="ScriptGuid">{D2444A6A-F87B-43C3-B10E-DBBDA4A2881C}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -1766,6 +1779,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -1831,7 +1846,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -1972,6 +1987,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -2039,7 +2056,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B5304103-3615-4139-9B13-CCB62A8740CA}</string>
+									<string name="ScriptGuid">{BC1FF119-AD0A-416E-9CC3-7DCDEAD58CB7}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -2183,6 +2200,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -2276,6 +2295,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">TextBox</string>
@@ -2437,6 +2458,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -2504,7 +2527,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{47540559-090A-4309-8F29-667F567B8A25}</string>
+								<string name="ScriptGuid">{B41070F8-B3E5-4079-B18D-76C8C86083C4}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.TextBox
 	local price = script.Parent.Parent.PriceBox
@@ -2605,6 +2628,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">PriceBox</string>
@@ -2738,7 +2763,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwA=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -2829,6 +2854,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">Title</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -2920,6 +2947,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">Version</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -2984,7 +3013,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{D28689AA-665E-4AA2-8B37-C70CCA5BC3D2}</string>
+								<string name="ScriptGuid">{2D6E56EC-7F30-4914-99D4-EAACDED9F508}</string>
 								<ProtectedString name="Source"><![CDATA[local core = script.Parent.Parent.Parent.Parent.Parent
 
 script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Build.Value .. ")"]]></ProtectedString>
@@ -3028,6 +3057,8 @@ script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Bu
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">Copyright</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -3060,7 +3091,7 @@ script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Bu
 							<token name="SizeConstraint">0</token>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
-							<string name="Text">&#194;&#169; 2021-23 ExperiencersInternational</string>
+							<string name="Text">&#194;&#169; 2021-24 ExperiencersInternational</string>
 							<Color3 name="TextColor3">
 								<R>1</R>
 								<G>1</G>
@@ -3119,6 +3150,8 @@ script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Bu
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">TimeSpentUsingPlugin</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -3183,7 +3216,7 @@ script.Parent.Text = "Version: " .. core.Version.Value .. " (Build: " .. core.Bu
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{69721BE2-62BD-4A60-AD6C-1791FF917404}</string>
+								<string name="ScriptGuid">{534038C7-AE27-47FC-93C8-55F41B94B9F8}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.Text = "Time spent (m): " .. plugin:GetSetting("PluginUptime")
 
 while true do
@@ -3203,7 +3236,7 @@ end]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -3344,6 +3377,8 @@ end]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -3411,7 +3446,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4892DD9B-204B-4905-8F2D-E8B1E72BA9E0}</string>
+									<string name="ScriptGuid">{072803E1-6A04-4CAD-B960-5CA8CFC257E6}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -3555,6 +3590,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -3620,7 +3657,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -3761,6 +3798,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -3828,7 +3867,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{10CF21B9-2B24-42E8-990D-742DE18CE4BA}</string>
+									<string name="ScriptGuid">{F5477A5A-95ED-4424-A8EE-B57D622B7263}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -3972,6 +4011,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -4065,6 +4106,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">TextBox</string>
@@ -4226,6 +4269,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -4293,7 +4338,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{251E8FBF-E066-4022-BD3F-05BD7D5FF828}</string>
+								<string name="ScriptGuid">{EFE94533-9AB9-422C-A71C-E977624FCAB7}</string>
 								<ProtectedString name="Source"><![CDATA[local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local Selection = game:GetService("Selection")
 local MarketplaceService = game:GetService("MarketplaceService")
@@ -4456,6 +4501,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">LastModelButton</string>
@@ -4523,7 +4570,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{4B776B87-545D-4361-92D9-E44AB4F62335}</string>
+								<string name="ScriptGuid">{0E00E35E-47A0-4DF1-A584-5FFDBDA7C6D4}</string>
 								<ProtectedString name="Source"><![CDATA[local check = plugin:GetSetting("InsertModelLastID")
 
 if check == nil then
@@ -4661,7 +4708,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -4802,6 +4849,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -4869,7 +4918,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{02C9184A-33B0-4519-83AC-D51CE1803D7E}</string>
+									<string name="ScriptGuid">{7521656A-38B5-4398-98FA-B4F638670AE6}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -5013,6 +5062,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -5196,7 +5247,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Generator</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{A55F96B4-2ECE-4554-A2D6-FD00D61564B2}</string>
+								<string name="ScriptGuid">{CE3D350D-73FF-436F-B400-65E9770C346B}</string>
 								<ProtectedString name="Source"><![CDATA[-- Thank you to @Katrist on the DevForum for the help, really appreciated
 
 --//Services
@@ -5361,7 +5412,7 @@ end]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -5502,6 +5553,8 @@ end]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -5569,7 +5622,7 @@ end]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{D8EDBBC0-FB9D-490D-8229-6D628AEE46A1}</string>
+									<string name="ScriptGuid">{E662C926-304A-4464-81DA-0B094AD43665}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -5713,6 +5766,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -5778,7 +5833,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -5919,6 +5974,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -5986,7 +6043,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{435A44FA-AAD6-41D2-8245-1780431A07B3}</string>
+									<string name="ScriptGuid">{7D7EEE13-BF42-47AE-A7CF-CE8A2B33694D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -6130,6 +6187,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -6195,7 +6254,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -6336,6 +6395,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -6403,7 +6464,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{702AAF19-BED9-4027-8981-D0BB962332C0}</string>
+									<string name="ScriptGuid">{BD2DBCCB-80BD-4572-A213-261ACE13EAE9}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -6547,6 +6608,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -6640,6 +6703,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">TextureBox</string>
@@ -6801,6 +6866,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -6868,7 +6935,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{47536D47-9288-4CCC-BD3A-E2BD07AC966F}</string>
+								<string name="ScriptGuid">{46C889AE-A6D9-48A4-9AB5-4231A7F043E8}</string>
 								<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7014,6 +7081,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">TextureLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -7298,7 +7367,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1BFB9D6B-B5DA-4124-9C1E-80855239F4EF}</string>
+									<string name="ScriptGuid">{4823AE4E-C5A4-4BB5-8D35-20A48830BEC3}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7534,7 +7603,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{AFC5FDAD-A3CE-4AFA-A58F-D883B4712D30}</string>
+									<string name="ScriptGuid">{2AEF545A-2AA8-40BB-B9F2-1F3475358CC5}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -7770,7 +7839,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{8A4D7B17-39F6-4C5A-9B04-FF67B93C3415}</string>
+									<string name="ScriptGuid">{3BFD74A7-4792-425B-95FC-72AFB68845B5}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8006,7 +8075,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{A5AEF6EC-A9C0-41FF-A565-40ADE96A2B3A}</string>
+									<string name="ScriptGuid">{F5EE9FCA-831C-4C25-8B39-27F0195ECF64}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8242,7 +8311,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{2C289F7C-3DA1-4275-8E6A-D2060987C86B}</string>
+									<string name="ScriptGuid">{2C3E1739-7C70-4C42-A004-C1F58694EE64}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8478,7 +8547,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1782B22D-84BF-4763-A657-CE5DA309064D}</string>
+									<string name="ScriptGuid">{CFF17A9F-BB15-4C50-B08A-1BF5AC26B0AF}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8714,7 +8783,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{5F7E6953-F3A6-426E-A17C-D1CA9CEE2C62}</string>
+									<string name="ScriptGuid">{3DD89AA1-F97A-4909-B076-40B7258FBA6B}</string>
 									<ProtectedString name="Source"><![CDATA[-- Majority ported from blisstools which received assistance from @csqrl. Consider buying some of his plugins to support him, he makes some really good ones such as Codify!
 
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
@@ -8848,7 +8917,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -8989,6 +9058,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -9056,7 +9127,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{D5E92FA4-73A1-428F-80B6-1FB3D54827C8}</string>
+									<string name="ScriptGuid">{2F7035B0-C64B-4CE5-95D1-6B0622C4C975}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -9200,6 +9271,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -9292,6 +9365,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">CreditsLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -9383,6 +9458,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">CreditsLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -9474,6 +9551,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">CreditsLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -9565,6 +9644,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">CreditsLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -9629,7 +9710,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -9770,6 +9851,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -9837,7 +9920,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{8A39307A-D452-4661-AE85-33B0D2B7DC51}</string>
+									<string name="ScriptGuid">{35B734A3-2B80-4D2F-9C2E-401B55298452}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -9981,6 +10064,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -10046,7 +10131,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -10187,6 +10272,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -10254,7 +10341,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4ABDD37D-2BAD-49B8-A75C-CB448413E78D}</string>
+									<string name="ScriptGuid">{E609E7F3-BC64-42F3-9AB2-8878F64C8487}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -10398,6 +10485,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -10463,7 +10552,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -10604,6 +10693,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -10671,7 +10762,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{618F7C23-65AE-4D07-A40D-9577D47D4EC3}</string>
+									<string name="ScriptGuid">{FF5AC20C-CB12-4603-8868-435157668505}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -10815,6 +10906,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -10908,6 +11001,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">TextBox</string>
@@ -11069,6 +11164,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -11136,7 +11233,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{DCF4384E-111B-469D-9DF0-81E199C5BB4C}</string>
+								<string name="ScriptGuid">{3BD9E905-88CD-4E67-A000-9509815EB628}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local text = script.Parent.Parent.TextBox.Text
 	local feesCheck = script.Parent.Parent.RobloxFeesToggle
@@ -11198,6 +11295,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">OutputLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -11289,6 +11388,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">RobloxFees</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -11381,6 +11482,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">RobloxFeesToggle</string>
@@ -11462,7 +11565,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{73D61870-62A9-42E3-8131-BD884E644159}</string>
+								<string name="ScriptGuid">{B72AB417-79CA-47FE-AEB9-34C0A9DC97E5}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	if script.Parent.Text == "" then
 		script.Parent.Text = "X"
@@ -11486,7 +11589,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -11627,6 +11730,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -11694,7 +11799,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{F88B049A-D935-4F7E-9DD8-AE071E1751E3}</string>
+									<string name="ScriptGuid">{3D212816-5A95-4E52-B1D6-5523C4616373}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -11838,6 +11943,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -11903,7 +12010,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -12044,6 +12151,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -12111,7 +12220,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{F57CE272-D3B3-4A48-ABED-28DB0470C1EC}</string>
+									<string name="ScriptGuid">{0702C601-5013-4DFB-8E9F-44DAF7DE8C18}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -12255,6 +12364,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -12348,6 +12459,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -12415,7 +12528,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{849B5707-1F6C-483F-AD05-8A6A08B69C1E}</string>
+								<string name="ScriptGuid">{B40C2754-9EEF-49C7-97A2-D60E9BDB19ED}</string>
 								<ProtectedString name="Source"><![CDATA[-- ported from blisstools
 
 script.Parent.Activated:Connect(function()
@@ -12626,6 +12739,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">StatusLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -12690,7 +12805,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -12831,6 +12946,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -12898,7 +13015,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{A40C7267-7219-4830-BE3B-D2CDD910D583}</string>
+									<string name="ScriptGuid">{37715613-88D5-4A59-907D-0A7226E29733}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -13042,6 +13159,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -13107,7 +13226,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -13248,6 +13367,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -13315,7 +13436,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{117C2A00-7BB9-4300-A130-19A1A0FC41EC}</string>
+									<string name="ScriptGuid">{064606A1-DA6D-49C9-9CE8-0C03D4CD3681}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -13459,6 +13580,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -13552,6 +13675,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">TextBox</string>
@@ -13713,6 +13838,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -13780,7 +13907,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{14966140-F61A-4A6C-974A-A09695B262D9}</string>
+								<string name="ScriptGuid">{7BE9BA96-4565-4727-8287-B39738E9E152}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.TextBox
 	local selection = game:GetService("Selection")
@@ -13831,7 +13958,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -13972,6 +14099,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -14039,7 +14168,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{25ACAE58-8295-4B23-AFD6-5EF6AB8ADF7D}</string>
+									<string name="ScriptGuid">{E1D8BAAD-8229-4BEF-8CC8-9F03CD0AC17F}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -14183,6 +14312,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -14248,7 +14379,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -14389,6 +14520,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -14456,7 +14589,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{961903FD-A480-4C6B-BCD7-55971E735570}</string>
+									<string name="ScriptGuid">{683EE3B2-EA32-47F7-9AFF-E56CAF02AE31}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -14600,6 +14733,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -14692,6 +14827,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">DebugLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -14784,6 +14921,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">DebugButton</string>
@@ -14865,7 +15004,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{5474CBD6-AE5F-4BBC-B5F9-AC326C7DF809}</string>
+								<string name="ScriptGuid">{F38A72B4-D7D9-42FD-9B60-F1AE818A5185}</string>
 								<ProtectedString name="Source"><![CDATA[if plugin:GetSetting("DebugMode") == nil then
 	plugin:SetSetting("DebugMode", false)
 else if plugin:GetSetting("DebugMode") == false then
@@ -14928,6 +15067,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">RightDisplayViewportResolution</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -15020,6 +15161,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">DisplayViewportButton</string>
@@ -15101,7 +15244,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{1BEEDAEA-CAF9-4716-B461-76463E37BDC3}</string>
+								<string name="ScriptGuid">{C91464AB-E000-4721-A31C-98CA447CBA4F}</string>
 								<ProtectedString name="Source"><![CDATA[local RunService = game:GetService("RunService")
 task.wait(2)
 local label = game.CoreGui.auroraSuite.Frame.TextLabel
@@ -15193,6 +15336,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">DebugPrintButton</string>
@@ -15260,7 +15405,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{3BF0C4C9-954C-4EDA-B241-AD3AA9F71037}</string>
+								<string name="ScriptGuid">{EF47DC67-FA48-40B0-A225-6E96DB60D7D8}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local ui = script.Parent.Parent.Parent.Parent
 	local ss = game:GetService("StudioService")
@@ -15307,6 +15452,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">BackupPreferencesButton</string>
@@ -15374,7 +15521,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{280084C1-03F9-4160-BA6F-EAFAB8D94197}</string>
+								<string name="ScriptGuid">{D4F8FAA2-BA66-4E49-946E-0CDA91F9ED81}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local ui = script.Parent.Parent.Parent.Parent
 	local ServerStorage = game.ServerStorage
@@ -15469,7 +15616,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -15610,6 +15757,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -15677,7 +15826,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{2FABE114-D0BB-44B3-9840-7563CADE18F7}</string>
+									<string name="ScriptGuid">{DBB2DBF3-CF26-4981-AA61-0091E656A9E1}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -15821,6 +15970,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -15886,7 +16037,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -16027,6 +16178,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -16094,7 +16247,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{F47E8343-797C-4218-8002-0A6FA2CC7817}</string>
+									<string name="ScriptGuid">{F26D298F-AB92-4840-A90C-FE4C2B59F10B}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -16238,6 +16391,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -16449,6 +16604,8 @@ BgAAADB4RTAwMg==]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">1Character</string>
@@ -16516,7 +16673,7 @@ BgAAADB4RTAwMg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{99C661A9-3B9A-4AAD-BBDB-F9D3FD0F458C}</string>
+									<string name="ScriptGuid">{B9342667-9393-4A17-BAE1-20AA1713C741}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 	
@@ -16566,6 +16723,8 @@ ZQIGAAAAMHhFMDAx]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">2Character</string>
@@ -16633,7 +16792,7 @@ ZQIGAAAAMHhFMDAx]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B8E5533F-0185-40E5-BA87-148E29853CDC}</string>
+									<string name="ScriptGuid">{A56415FB-EA7E-40C6-871D-7DFC254C5A1F}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -16683,6 +16842,8 @@ eEUwMDA=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">3Character</string>
@@ -16750,7 +16911,7 @@ eEUwMDA=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B27E3BD4-398A-4A9C-9587-6BDFD1AE3E91}</string>
+									<string name="ScriptGuid">{67AAAC51-BEB2-481E-B9D0-55D100E2825E}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -16800,6 +16961,8 @@ AAAweDAwQTk=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">4Character</string>
@@ -16867,7 +17030,7 @@ AAAweDAwQTk=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{A0EA6664-636B-427A-8DB0-C6B0C4A62AA7}</string>
+									<string name="ScriptGuid">{FFB47787-7D4C-456A-9557-B560EE623152}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -16917,6 +17080,8 @@ AAAAMHgwMEFF]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">5Character</string>
@@ -16984,7 +17149,7 @@ AAAAMHgwMEFF]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{CEAAFFFC-4D52-48F4-9E92-4FEBBA31FE4D}</string>
+									<string name="ScriptGuid">{63060B80-B7B7-4319-8DB2-3D36CD1A6829}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17060,6 +17225,8 @@ MHgwMEIw]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">6Character</string>
@@ -17127,7 +17294,7 @@ MHgwMEIw]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B48C6D76-07BA-414F-82E0-45A22F854733}</string>
+									<string name="ScriptGuid">{987B8EA9-1A02-4133-8287-3FFEF0D420E7}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17177,6 +17344,8 @@ BgAAADB4MDBBQg==]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">7Character</string>
@@ -17244,7 +17413,7 @@ BgAAADB4MDBBQg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{3856EFA6-9EEC-42D9-8B35-D08B0893D587}</string>
+									<string name="ScriptGuid">{59949599-6F7E-44E6-B40E-9256B9D89E30}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17294,6 +17463,8 @@ AgYAAAAweDAwQkI=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">8Character</string>
@@ -17361,7 +17532,7 @@ AgYAAAAweDAwQkI=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{3C5653C8-925F-4BFD-B320-59B199E545E5}</string>
+									<string name="ScriptGuid">{69F85220-C0AB-4475-8312-5DDEC0DE7256}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17411,6 +17582,8 @@ MjEyMA==]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">9Character</string>
@@ -17478,7 +17651,7 @@ MjEyMA==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{E81C7204-C2E2-40FD-8686-ED809F3A80CC}</string>
+									<string name="ScriptGuid">{3A53E711-4F12-45A8-836B-E594F34719E0}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17528,6 +17701,8 @@ MjI=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">91Character</string>
@@ -17595,7 +17770,7 @@ MjI=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{648C31B7-C479-48CF-8D4A-1A9E61F1B8CA}</string>
+									<string name="ScriptGuid">{A6245E68-ACC6-4A30-8A74-D0C995747356}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17645,6 +17820,8 @@ MjAyMg==]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">92Character</string>
@@ -17712,7 +17889,7 @@ MjAyMg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1FA19547-C7A5-41F3-A9C4-24E7ACBDE5B9}</string>
+									<string name="ScriptGuid">{75EE8BD8-0C93-40CB-A1C6-1B4D2A604802}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17762,6 +17939,8 @@ OTA=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">93Character</string>
@@ -17829,7 +18008,7 @@ OTA=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{DDA664A3-7E1C-4B9E-8520-681052CBB216}</string>
+									<string name="ScriptGuid">{B5D6CA3F-01AB-40A6-83CE-C3B6C4022965}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17879,6 +18058,8 @@ MTky]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">94Character</string>
@@ -17946,7 +18127,7 @@ MTky]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4A3C114A-86EC-4D07-8BF9-58C8C6A178CB}</string>
+									<string name="ScriptGuid">{B04927FC-8E6D-4BA8-9A86-E42D1CE1B3E7}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -17996,6 +18177,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">95Character</string>
@@ -18063,7 +18246,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B08E2EA8-A71D-4A95-81EC-BB1FA432E97A}</string>
+									<string name="ScriptGuid">{482041AA-ACC7-42FB-8C8F-6C1086B2F1C0}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18113,6 +18296,8 @@ OTM=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">96Character</string>
@@ -18180,7 +18365,7 @@ OTM=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1F46DD38-B489-4170-803A-9DC2580489AB}</string>
+									<string name="ScriptGuid">{7147685A-4C75-464B-A060-8D19E2873B1B}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18230,6 +18415,8 @@ AgYAAAAweDIxOTQ=]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">97Character</string>
@@ -18297,7 +18484,7 @@ AgYAAAAweDIxOTQ=]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{9905D39A-AF70-4F27-9160-3C1697AE90DC}</string>
+									<string name="ScriptGuid">{123F883C-9E19-4573-8224-F35A50E82A40}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18347,6 +18534,8 @@ AAB1bmtub3du]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">98Character</string>
@@ -18414,7 +18603,7 @@ AAB1bmtub3du]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{401DFCCB-7662-4A4C-9FA1-3DCE88DBF7A0}</string>
+									<string name="ScriptGuid">{368F43BB-F0C1-4D2D-BA1E-1F7A86FBCB47}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18464,6 +18653,8 @@ bg==]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">99Character</string>
@@ -18531,7 +18722,7 @@ bg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{1D0C9B2D-8F21-4BC2-8F00-A3ED12CA730D}</string>
+									<string name="ScriptGuid">{273D1D1C-0AC9-40AC-9C26-62F108E2FE3E}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18580,6 +18771,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">991Character</string>
@@ -18647,7 +18840,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{3CFA577A-B039-48D4-9205-FE27C6CF6592}</string>
+									<string name="ScriptGuid">{3913A9B6-139B-4E5F-9276-7CAC52E7CCFA}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18697,6 +18890,8 @@ bg==]]></BinaryString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">992Character</string>
@@ -18764,7 +18959,7 @@ bg==]]></BinaryString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{AA87175F-3B02-4556-B0A7-B30BAE9EB8C5}</string>
+									<string name="ScriptGuid">{F0C5A9F0-ADFE-450E-8162-EB7F6CE0B414}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18813,6 +19008,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">993Character</string>
@@ -18880,7 +19077,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{555C8A42-266B-4241-84CE-4F476E2A3BB0}</string>
+									<string name="ScriptGuid">{DB066181-F050-4AB8-A0A2-F4D19A4AD7E8}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	script.Parent.Parent.Parent.TextBox.Text = script.Parent.Parent.Parent.TextBox.Text .. script.Parent.Text
 
@@ -18930,6 +19127,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">TextBox</string>
@@ -19063,7 +19262,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -19204,6 +19403,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -19271,7 +19472,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{8D7A1B08-EC1F-483A-950C-C19FA617FE20}</string>
+									<string name="ScriptGuid">{74C93FF4-11B2-4CEB-9E68-576535DD1474}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -19415,6 +19616,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -19480,7 +19683,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -19621,6 +19824,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -19688,7 +19893,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{DA1A22DD-169D-4851-9B47-85F0CE1D14B4}</string>
+									<string name="ScriptGuid">{61E8889A-D62F-4495-BB62-1F08C969C3B1}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -19832,6 +20037,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -19925,6 +20132,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -19992,7 +20201,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{C7BD36CC-1CD4-40A8-A68B-DF95D9A8A043}</string>
+								<string name="ScriptGuid">{63DB629D-5F5F-4F1D-B18E-FF4007C5A9CF}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local selection = game:GetService("Selection")
 	local history = game:GetService("ChangeHistoryService")
@@ -20080,6 +20289,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">StatusLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -20144,7 +20355,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -20285,6 +20496,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -20352,7 +20565,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{B2D778B2-52B6-4A14-AFB8-833573D4CE28}</string>
+									<string name="ScriptGuid">{A5D5527F-1F72-4609-AF0D-641A63E3AE0A}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -20496,6 +20709,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -20561,7 +20776,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -20702,6 +20917,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -20769,7 +20986,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{570C931D-B6ED-4E29-B736-644F83E07EE1}</string>
+									<string name="ScriptGuid">{72839D02-84DA-4474-9C44-AC74BB15945D}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -20913,6 +21130,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -21006,6 +21225,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -21073,7 +21294,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{5ED7D8CC-0B5E-4F7B-B9D2-B190C370440B}</string>
+								<string name="ScriptGuid">{BDA4021D-1327-477A-9EA5-257501081B0B}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local selection = game:GetService("Selection")
 	local history = game:GetService("ChangeHistoryService")
@@ -21141,6 +21362,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">StatusLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -21205,7 +21428,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -21346,6 +21569,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -21413,7 +21638,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{66490E89-5C7B-406A-ABC1-87B796DEAB28}</string>
+									<string name="ScriptGuid">{8BD7C9EF-44C7-4EF6-84AA-1E5ECB0BF619}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -21557,6 +21782,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -21622,7 +21849,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -21763,6 +21990,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -21830,7 +22059,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{E5F3381E-4780-4BE9-ABAF-A841D4A05833}</string>
+									<string name="ScriptGuid">{AD6B3370-BA5B-4060-95C8-365D979EEEDF}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -21974,6 +22203,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -22067,6 +22298,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">WalkspeedBox</string>
@@ -22228,6 +22461,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -22295,7 +22530,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{F3130AEA-5E2D-4E2F-BE63-6DB17FEB13F8}</string>
+								<string name="ScriptGuid">{4C4815AE-2CCA-44EB-998A-AA7D8CCE282D}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local box = script.Parent.Parent.WalkspeedBox
 	local ws = box.Text
@@ -22342,7 +22577,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">ShiftToSprint</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{01D040E0-5F40-4FB8-9B6A-C2218CA29FF1}</string>
+								<string name="ScriptGuid">{5D26D195-559A-49EB-B43E-8FB56260B51E}</string>
 								<ProtectedString name="Source"><![CDATA[-- Thanks to luisgamercooI231fan for submitting these changes
 local TabletJumpbuttonYoffset = 2.55 -- the mobile button offset on the Y axis(up) for tablets
 local PhoneJumpButtonoffset = 75 --the mobile button offset on the Y axis(up) for phones
@@ -22426,7 +22661,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -22567,6 +22802,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -22634,7 +22871,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{46F50156-FE26-4791-A492-83399FF14BBF}</string>
+									<string name="ScriptGuid">{7F06EE8A-61C6-4901-840F-78218C140FF3}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -22778,6 +23015,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -22843,7 +23082,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -22984,6 +23223,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -23051,7 +23292,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{69B13992-48FC-4C91-8ADA-EBF692EF1BA6}</string>
+									<string name="ScriptGuid">{8D605D2A-525B-4D58-873D-B9BA85659B20}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -23195,6 +23436,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -23288,6 +23531,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">StartBox</string>
@@ -23449,6 +23694,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -23516,7 +23763,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{1AC0F7C7-74E6-40F4-B0A0-A321433254FF}</string>
+								<string name="ScriptGuid">{56B68771-8911-4B18-8549-B9257CC3EEE5}</string>
 								<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local st = script.Parent.Parent.StartBox
 	local samt = script.Parent.Parent.IntervalBox
@@ -23637,6 +23884,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="MultiLine">false</bool>
 							<string name="Name">IntervalBox</string>
@@ -23798,6 +24047,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">UTCTimeCycleButton</string>
@@ -23879,7 +24130,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{65EC2597-03E9-4EC8-83EE-B01407E0854D}</string>
+								<string name="ScriptGuid">{5E9D0537-9772-4DC8-8C42-7880E78FD6DA}</string>
 								<ProtectedString name="Source"><![CDATA[local core = script.Parent.Parent
 
 script.Parent.MouseButton1Click:Connect(function()
@@ -23955,6 +24206,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">UTCTimeCycle</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -24019,7 +24272,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AgAAAAoAAABTZWFyY2hhYmxlAwEXAAAAU2hvdWxkQmVWaXNpYmxlQXRMYXVuY2gDAQ==</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -24160,6 +24413,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -24227,7 +24482,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{8C014D88-B59A-47A2-8D3D-87E86B798418}</string>
+									<string name="ScriptGuid">{22330E6E-FAEC-42A8-B449-4C47D83E1E34}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -24371,6 +24626,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -24436,7 +24693,7 @@ end)]]></ProtectedString>
 							<X>0</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwE=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -24577,6 +24834,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<bool name="Modal">false</bool>
 								<string name="Name">TextButton</string>
@@ -24644,7 +24903,7 @@ end)]]></ProtectedString>
 									<Content name="LinkedSource"><null></null></Content>
 									<string name="Name">Script</string>
 									<token name="RunContext">0</token>
-									<string name="ScriptGuid">{4050E30C-E953-4338-A5E6-C7849E23221F}</string>
+									<string name="ScriptGuid">{B70F5F92-A6A9-405D-88A3-67F1EF723264}</string>
 									<ProtectedString name="Source"><![CDATA[script.Parent.MouseButton1Click:Connect(function()
 	local core = script.Parent.Parent.Parent
 	
@@ -24788,6 +25047,8 @@ end)]]></ProtectedString>
 								<bool name="Interactable">true</bool>
 								<int name="LayoutOrder">0</int>
 								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
 								<int name="MaxVisibleGraphemes">-1</int>
 								<string name="Name">TextLabel</string>
 								<Ref name="NextSelectionDown">null</Ref>
@@ -24881,6 +25142,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<bool name="Modal">false</bool>
 							<string name="Name">TextButton</string>
@@ -24948,7 +25211,7 @@ end)]]></ProtectedString>
 								<Content name="LinkedSource"><null></null></Content>
 								<string name="Name">Script</string>
 								<token name="RunContext">0</token>
-								<string name="ScriptGuid">{BBE46F65-93E3-4EDA-9CAE-CE91A05A4F44}</string>
+								<string name="ScriptGuid">{F9ABC821-E6BE-4ADD-9A0C-691493C23E8F}</string>
 								<ProtectedString name="Source"><![CDATA[local setting = plugin:GetSetting("ViewportDisplay")
 local RunService = game:GetService("RunService")
 
@@ -25087,6 +25350,8 @@ end)]]></ProtectedString>
 							<bool name="Interactable">true</bool>
 							<int name="LayoutOrder">0</int>
 							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
 							<int name="MaxVisibleGraphemes">-1</int>
 							<string name="Name">StatusLabel</string>
 							<Ref name="NextSelectionDown">null</Ref>
@@ -25151,7 +25416,7 @@ end)]]></ProtectedString>
 							<X>0.5</X>
 							<Y>0</Y>
 						</Vector2>
-						<BinaryString name="AttributesSerialize"></BinaryString>
+						<BinaryString name="AttributesSerialize">AQAAAAoAAABTZWFyY2hhYmxlAwA=</BinaryString>
 						<bool name="AutoLocalize">true</bool>
 						<token name="AutomaticSize">0</token>
 						<Color3 name="BackgroundColor3">
@@ -25206,6 +25471,343 @@ end)]]></ProtectedString>
 						<BinaryString name="Tags"></BinaryString>
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Frame" referent="RBX2767EA746AD54FD5B99600C2057E4333">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="AutoLocalize">true</bool>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>0.211764723</R>
+						<G>0.211764723</G>
+						<B>0.211764723</B>
+					</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">1</int>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Draggable">false</bool>
+					<bool name="Interactable">true</bool>
+					<int name="LayoutOrder">0</int>
+					<string name="Name">Search</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>8</XO>
+						<YS>0</YS>
+						<YO>8</YO>
+					</UDim2>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<bool name="Selectable">false</bool>
+					<token name="SelectionBehaviorDown">0</token>
+					<token name="SelectionBehaviorLeft">0</token>
+					<token name="SelectionBehaviorRight">0</token>
+					<token name="SelectionBehaviorUp">0</token>
+					<bool name="SelectionGroup">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<int name="SelectionOrder">0</int>
+					<UDim2 name="Size">
+						<XS>1</XS>
+						<XO>-16</XO>
+						<YS>0</YS>
+						<YO>24</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<int64 name="SourceAssetId">-1</int64>
+					<token name="Style">0</token>
+					<BinaryString name="Tags"></BinaryString>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+				<Item class="UICorner" referent="RBXA80677E1A05D4028ADA775C2AB17ACE0">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<UDim name="CornerRadius">
+							<S>0</S>
+							<O>8</O>
+						</UDim>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">UICorner</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="UIPadding" referent="RBX990BB5111EE84E0080F48E22F35E9621">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">UIPadding</string>
+						<UDim name="PaddingBottom">
+							<S>0</S>
+							<O>4</O>
+						</UDim>
+						<UDim name="PaddingLeft">
+							<S>0</S>
+							<O>4</O>
+						</UDim>
+						<UDim name="PaddingRight">
+							<S>0</S>
+							<O>4</O>
+						</UDim>
+						<UDim name="PaddingTop">
+							<S>0</S>
+							<O>4</O>
+						</UDim>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ImageLabel" referent="RBXF217ABC91ECE44BAAC8D4AFB9221B69E">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Draggable">false</bool>
+						<Content name="Image"><url>http://www.roblox.com/asset/?id=15883865318</url></Content>
+						<Color3 name="ImageColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<Vector2 name="ImageRectOffset">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<Vector2 name="ImageRectSize">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<float name="ImageTransparency">0</float>
+						<bool name="Interactable">true</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">ImageLabel</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="ResampleMode">0</token>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<token name="ScaleType">0</token>
+						<bool name="Selectable">false</bool>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>16</XO>
+							<YS>0</YS>
+							<YO>16</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<Rect2D name="SliceCenter">
+							<min>
+								<X>0</X>
+								<Y>0</Y>
+							</min>
+							<max>
+								<X>0</X>
+								<Y>0</Y>
+							</max>
+						</Rect2D>
+						<float name="SliceScale">1</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UDim2 name="TileSize">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextBox" referent="RBX20379B8D76B34AF785A219B96C0C1AA1">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="ClearTextOnFocus">false</bool>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Draggable">false</bool>
+						<Font name="FontFace">
+							<Family><url>rbxasset://fonts/families/GothamSSm.json</url></Family>
+							<Weight>400</Weight>
+							<Style>Normal</Style>
+						</Font>
+						<bool name="Interactable">true</bool>
+						<int name="LayoutOrder">0</int>
+						<float name="LineHeight">1</float>
+						<string name="LocalizationMatchIdentifier"></string>
+						<string name="LocalizationMatchedSourceText"></string>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<bool name="MultiLine">false</bool>
+						<string name="Name">SearchBox</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<Color3 name="PlaceholderColor3">
+							<R>0.699999988</R>
+							<G>0.699999988</G>
+							<B>0.699999988</B>
+						</Color3>
+						<string name="PlaceholderText">Search for a tool...</string>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>20</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="RichText">false</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<bool name="ShowNativeInput">true</bool>
+						<UDim2 name="Size">
+							<XS>1</XS>
+							<XO>-24</XO>
+							<YS>0</YS>
+							<YO>16</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<string name="Text"></string>
+						<Color3 name="TextColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<token name="TextDirection">0</token>
+						<bool name="TextEditable">true</bool>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">16</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">1</token>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX29ED76A2B35D440A90189D93B7620EA9">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Script</string>
+						<token name="RunContext">0</token>
+						<string name="ScriptGuid">{4F3B6FCE-D2C7-4001-B49C-974BF4161035}</string>
+						<ProtectedString name="Source"><![CDATA[-- extremely in beta
+
+local ScrollingFrame = script.Parent.Parent.ScrollingFrame -- Put the parent of the buttons here instead of nil
+local SearchBar = script.Parent.SearchBox -- Put the textbox of your searchbar here instead of nil
+SearchBar:GetPropertyChangedSignal("Text"):Connect(function()
+	local InputText = string.lower(SearchBar.Text)
+	
+	for _, Tool in pairs(ScrollingFrame:GetChildren()) do
+		if Tool:GetAttribute("Searchable") == false then
+			
+		else
+			if Tool:GetAttribute("ShouldBeVisibleAtLaunch") == true then
+				Tool.Visible = string.find(string.lower(Tool.TopElements.TextLabel.Text), InputText) and true or false
+			else
+				Tool.Visible = false
+			end
+		end
+	end
+end)]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
 					</Properties>
 				</Item>
 			</Item>
