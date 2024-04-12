@@ -7,4 +7,4 @@ Part of ExperiencersInternational's Plugin Suite.
 
 ![image](https://github.com/ExperiencersInternational/auroraSuite/assets/56035537/6272c18c-ec19-4aed-a9d9-e0dfe6765875)
 
-**NOTE: By downloading from GitHub, you are not helping to support me as a developer who hardly gets paid anything from Roblox as it is. If you don't want to use Roblox's system, that's fine, but consider leaving me a donation. Thank you!**
+**Consider leaving me a donation if this plugin helps you. Thank you!**
